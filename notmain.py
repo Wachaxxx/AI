@@ -1,8 +1,8 @@
 import cv2
 
 # Завдання 1: Прочитати та відобразити картинку/відео з файлу.
-image_path = 'nado/photo.jpg'
-video_path = 'nado/video/video.mp4'
+image_path = 'photo.jpg'
+video_path = 'video.mp4'
 
 image = cv2.imread(image_path)
 video = cv2.VideoCapture(video_path)
